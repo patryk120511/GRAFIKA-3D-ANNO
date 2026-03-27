@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Simannio.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Simannio.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SimannioEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Simannio">
+      <UniqueIdentifier>{55F1EFD8-60E2-3DF0-A194-01D6F119DBB2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Simannio\Simannio.Build.cs">
+      <Filter>Source\Simannio</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Simannio\Simannio.cpp">
+      <Filter>Source\Simannio</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Simannio\Simannio.h">
+      <Filter>Source\Simannio</Filter>
+    </ClInclude>
+    <Filter Include="Source\Simannio\Private">
+      <UniqueIdentifier>{EF3AAC40-85FC-349F-84B7-0D3A7C9646FC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Simannio\Private\BP_WorldGenerator.cpp">
+      <Filter>Source\Simannio\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Simannio\Public">
+      <UniqueIdentifier>{38C361D3-1282-34CF-BDF0-578ED4D2EB0C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Simannio\Public\BP_WorldGenerator.h">
+      <Filter>Source\Simannio\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

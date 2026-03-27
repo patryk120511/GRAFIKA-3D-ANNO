@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Simannio",
+			"Path": "..\\Source\\Simannio.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SimannioEditor",
+			"Path": "..\\Source\\SimannioEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
